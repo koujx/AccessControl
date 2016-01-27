@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="D:/kjx/Java/lib/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/software/Tomcat7.0/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/kjx/Java/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/902/Desktop/访问控制/jar包/fpe.jar"/>
+	<classpathentry kind="lib" path="D:/kjx/Java/lib/Jama-1.0.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

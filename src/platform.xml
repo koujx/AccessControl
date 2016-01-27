@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<platforms> 
+	<platform>
+		<name>A</name>
+		<url>jdbc:mysql://localhost:3306/test</url>
+		<user>root</user>
+		<password>wbljy</password>
+	</platform>
+
+	<platform>
+		<name>B</name>
+		<url>jdbc:mysql://localhost:3306/test</url>
+		<user>root</user>
+		<password>wbljy</password>
+	</platform>
+
+	<platform>
+		<name>C</name>
+		<url>jdbc:mysql://localhost:3306/accesscontrol</url>
+		<user>root</user>
+		<password>root</password>
+	</platform>		
+</platforms>

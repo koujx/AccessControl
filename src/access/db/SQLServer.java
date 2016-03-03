@@ -1,28 +1,25 @@
 package access.db;
 
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Connection;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class SQLServer{
-	
+
 	static{
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-		} catch (Exception e) {
-			throw new RuntimeException(e); 
+            System.out.println("成功加载数据库驱动！");
+        } catch (Exception e) {
+			throw new RuntimeException(e);
 		}
 	}
-	
+
 	public static Connection getConn() throws SQLException {
 		  Connection conn = null;
-		  //conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8", "root", "root");
-		  conn = DriverManager.getConnection("jdbc:mysql://10.103.241.73:3306/test?useUnicode=true&characterEncoding=UTF-8", "root", "wbljy");
+		  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8", "root", "root");
+		  //conn = DriverManager.getConnection("jdbc:mysql://10.103.241" +
+		  //	".73:3306/test?useUnicode=true&characterEncoding=UTF-8", "root", "wbljy");
 		  //conn = DriverManager.getConnection("jdbc:mysql://10.103.241.77:3306/test?useUnicode=true&characterEncoding=UTF-8", "root", "wangpeng");
 		  return conn;
 	}

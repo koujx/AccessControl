@@ -1,13 +1,12 @@
 package access.compute;
 
-import javax.servlet.http.HttpServletRequest;
-
 import access.db.AccessPolicy;
 import access.db.Policy;
 import access.db.SQLServer;
 import access.db.Visibility;
 import access.model.AccessParams;
-import access.model.SetAccessParams;
+
+import javax.servlet.http.HttpServletRequest;
 
 public class AccessControl{
 	private static BehaviorLevel blc = new BehaviorLevel();

@@ -7,7 +7,7 @@ public class Environment{
 	private boolean mobile;
 	
 	public String envToString(){
-		String mobile = this.mobile?"无线网":"有线网";
+		String mobile = this.mobile?"有线网":"无线网";
 		return this.ip+","+this.latitude+","+this.longitude+","+mobile;		
 	}
 	public String getIp() {

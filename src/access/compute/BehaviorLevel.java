@@ -1,12 +1,11 @@
 package access.compute;
 
-import java.util.regex.Pattern;
-
 import access.db.Behavior;
 import access.db.User;
 import access.model.Environment;
-import access.model.SetAccessParams;
 import access.model.Subject;
+
+import java.util.regex.Pattern;
 
 public class BehaviorLevel{
 	private final static int DEFAULT_WRONG_PASSWORD_TIMES = 5;

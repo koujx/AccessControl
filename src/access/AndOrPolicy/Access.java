@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class Access {
     public static boolean access(AccessParams params, AccessPolicy accessPolicy) {
 
-        Map<String, String> policyMap = new HashMap<>();
+        Map<String, String> policyMap = new HashMap<String, String>();
         StringTokenizer tokenOfVector = new StringTokenizer(accessPolicy.getVectors(), ";");
         String[] vectors = new String[tokenOfVector.countTokens()];
         int num = 0;
@@ -44,8 +44,8 @@ public class Access {
             num2++;
         }
 
-        Map<String, Boolean> map = new HashMap<>();
-        LinkedList<String> list = new LinkedList<>();
+        Map<String, Boolean> map = new HashMap<String, Boolean>();
+        LinkedList<String> list = new LinkedList<String>();
         for (String str : aparams) {
             if (!map.containsKey(str)) {
                 map.put(str, Boolean.FALSE);

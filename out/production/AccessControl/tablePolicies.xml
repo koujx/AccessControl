@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<policies> 
+	<Internal_High_To_Low>
+		<pid environment="[11]">1</pid>
+		<pid environment="[10]">2</pid>
+		<pid environment="[01]">3</pid>
+		<pid environment="[00]">3</pid>
+	</Internal_High_To_Low>
+
+	<Internal_Low_To_High>
+		<pid environment="[11]">2</pid>
+		<pid environment="[10]">3</pid>
+		<pid environment="[01]">0</pid>
+		<pid environment="[00]">0</pid>
+	</Internal_Low_To_High>
+	
+	<External_Common>
+		<pid environment="[11]">3</pid>
+		<pid environment="[10]">4</pid>
+		<pid environment="[01]">0</pid>
+		<pid environment="[00]">0</pid>
+	</External_Common>
+	
+	<Special>
+		<pid environment="[11]">3</pid>
+		<pid environment="[10]">4</pid>
+		<pid environment="[01]">5</pid>
+		<pid environment="[00]">5</pid>
+	</Special>
+	
+	<Platform>
+		<pid environment="[11]">1</pid>
+		<pid environment="[10]">2</pid>
+		<pid environment="[01]">3</pid>
+		<pid environment="[00]">3</pid>
+	</Platform>
+</policies>

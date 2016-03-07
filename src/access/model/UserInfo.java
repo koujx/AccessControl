@@ -1,23 +1,18 @@
 package access.model;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Pattern;
-
-import javax.servlet.http.HttpServletRequest;
-
-import com.fpe.GeographyFPE;
-import com.fpe.IpFPE;
-import com.fpe.MD5;
-import com.fpe.NumberFPE;
-import com.fpe.StringFPE;
-
 import access.compute.BehaviorLevel;
+import access.compute.SetAccessParams;
 import access.db.Behavior;
 import access.db.SQLServer;
 import access.db.User;
 import access.util.PartmentModel.partModel;
 import access.util.PositionModel.posiModel;
+import com.fpe.*;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 
 public class UserInfo{

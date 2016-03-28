@@ -11,9 +11,7 @@ import java.util.Map.Entry;
 import java.util.StringTokenizer;
 
 public class Access{
-	
 	public static boolean access(AccessParams params,AccessPolicy accessPolicy) {
-
 		Map<String, String> policyMap = new HashMap<String, String>();
 		StringTokenizer tokenOfVector = new StringTokenizer(accessPolicy.getVectors(), ";");
 		String[] vectors = new String[tokenOfVector.countTokens()];

@@ -1,7 +1,7 @@
 package access.compute;
 
 import Jama.Matrix;
-import access.db.AccessPolicy;
+import access.policy.AccessPolicy;
 import access.model.AccessParams;
 
 import java.util.HashMap;

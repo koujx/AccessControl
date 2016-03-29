@@ -1,6 +1,6 @@
 package access.compute;
 
-import access.db.AccessPolicy;
+import access.policy.AccessPolicy;
 import access.db.Policy;
 import access.db.SQLServer;
 import access.db.Visibility;
